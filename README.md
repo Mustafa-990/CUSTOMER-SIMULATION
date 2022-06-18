@@ -1,4 +1,5 @@
 # CUSTOMER-SIMULATION
+Project for Object Orientated Software Development CSC 232B Class
 This problem involves the design and implementation of two classes that are helpful in simulating a customer service system. The idea is that the simulation is of an office (perhaps a bank, or the DMV) with multiple stations, and customers may need to enter several waiting lines over the course of their visit. Each time they enter a line, their priority in the line is determined by when they first entered the office, so that someone who has been around for several hours going from station to station will be served in front of someone else who has just arrived.
 PART 1: MODELING CUSTOMERS
 You should create a class called Customer that contains fields describing a customer in the simulation. It should at least contain a String giving the customer name and an int giving an arrival time. Feel free to include other fields such as age, email address, and how much money they have (although these will not be used in this problem).
